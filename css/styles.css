@@ -75,21 +75,21 @@ h1 {
 
 /* Product */
 .carousel-item {
-   padding: 1rem 1rem 4rem 5rem;
+   padding: 0rem 0rem 2rem 7rem;
 }
 
 .product {
     color: white;
     margin: 3% 2% 1% 1%;
+    height: 200%; 
+    width: 100%;
 }
 
 .product-heading {
-    height: 10%; 
-    width: 15%;
     border-radius: 1rem;
     line-height: 5px; 
     padding: 4px 0px 4px 10px;
-    margin: 35px;
+    margin: 30px 30px 60px 85px;
     float: left;
     position: relative;
 }
@@ -150,6 +150,7 @@ h1 {
 
 .subscribe-text {
     padding-bottom: 10px;
+    margin-left: 20%;
 }
 
 .subscribe-input {
@@ -267,21 +268,21 @@ h1 {
     }
 
     .subscribe-text {
-        margin-left: 65px;
+        
     }
 
     .subscribe-input {
         height: 50px;
-        width: 60px;
-        margin-left: 10%;
+        width: 30px;
+        margin-left: 8%;
     }
 
     .subscribe-button {
-        max-width: 20%;
+        max-width: 10%;
         height: 50px;
-        width: 200px;
-        margin-left: 12%;
-        padding-right: 1px;
+        width: 150px;
+        margin-left: 7%;
+    
     }
 }
 
@@ -333,7 +334,7 @@ h1 {
 
     .subscribe-text {
         padding-right: 50px;
-        margin-left: 60px;
+        margin-left: 1px;
     }
 
     .subscribe-input {
