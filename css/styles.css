@@ -141,7 +141,6 @@ h1 {
 .bottom-nav ul li a:hover {
     color: orangered;
 }
- 
 
 .subscribe {
     text-align: center;
@@ -150,7 +149,7 @@ h1 {
 
 .subscribe-text {
     padding-bottom: 10px;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .subscribe-input {
