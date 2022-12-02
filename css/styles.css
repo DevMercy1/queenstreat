@@ -1,0 +1,412 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 3rem;
+    background-image: url("image.jpg");
+}
+
+h1 {
+    font-size:xx-large;
+    font-weight:bolder;
+}
+
+/* Navigation Bar */
+.container {
+    max-width: 90%;
+}
+
+.nav-bar {
+    padding: 2px 0 0 2px;
+}
+
+.navbar-brand {
+    padding-left: 2rem;
+}
+
+.navbar-nav {
+    margin-left: 15rem;
+    padding-left: 10rem; 
+}
+
+.nav-link {
+    margin-left: 2.5rem;
+}
+
+.nav-link product {
+    margin-left: 2.5rem;
+    color:orange;
+    text-decoration: none;
+}
+
+/* Title */
+.button-image {
+    border-radius: 90%;
+    border: solid 1px orange;
+}
+
+.title {
+    padding-top: 7%;
+    padding-right: 5rem;
+}
+
+.title-image {
+    width: 30rem;
+    rotate: 28deg;
+}
+
+.title-heading {
+    color: white;
+    padding-top: 15%;
+    margin-left: 6rem;
+    line-height: 15px;
+    text-align:start;
+}
+
+.title-heading-yummy {
+    width: 180px;
+    height: 80px;
+    background-color: indianred;
+    color: white;
+    font: 700 sans-serif;
+    margin: 6rem 0 0 1.5rem;
+    padding-left: 1.6rem; 
+    rotate: 40deg; 
+    border: 1px solid white;  
+}
+
+/* Product */
+.carousel-item {
+   padding: 1rem 1rem 4rem 5rem;
+}
+
+.product {
+    color: white;
+    margin: 3% 2% 1% 1%;
+}
+
+.product-heading {
+    height: 10%; 
+    width: 15%;
+    border-radius: 1rem;
+    line-height: 5px; 
+    padding: 4px 0px 4px 10px;
+    margin: 35px;
+    float: left;
+    position: relative;
+}
+
+.product-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -50px;
+    rotate: 30deg;
+    margin-left: 25px;
+}
+
+.rating-star {
+    width: 30%;
+}
+
+.shopping-cart {
+    background-color: #fff;
+    border-radius: 100%;
+    width: 15%;
+}
+
+/* Footer */
+
+.container-footer {
+    max-width: 955px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.bottom-nav ul {
+    list-style: none;
+}
+
+.bottom-nav ul li a {
+    color: #E0E0E0; 
+    font-size:large;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    margin-top: 5px; 
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.bottom-nav ul li a:hover {
+    color: orangered;
+}
+ 
+
+.subscribe {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.subscribe-text {
+    padding-bottom: 10px;
+}
+
+.subscribe-input {
+    font-family: Heebo;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    height: 50px;
+    width: 250px;
+    max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 60px 0 0 60px;
+    border: 1.5px solid orange;  
+    padding-left: 15px;
+    left: 48%;
+    position: absolute;
+}
+
+::placeholder {
+    color: black;
+}
+
+.subscribe-button {
+    font-size: 14px;
+    font-family: Heebo;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    max-width: 20%;
+    border-radius: 60px;
+    background-color: orange;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+    left: 65%;
+    position: absolute;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+.list-title {
+    font-size:x-large;
+    font-weight:bolder;
+}
+
+.social-media-icon {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 700;
+}
+
+.footer-icon {
+    padding-top: 8px;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.copyright-text {
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    text-align: center;
+} 
+
+/*mobile media query */
+@media screen and (max-width: 576px)  {
+    .title {
+        padding-top: 2%;
+    }
+
+    .title-image {
+        width: 25rem;
+        rotate: 0deg;
+        padding-left: 20px;
+    }
+
+    .title-heading {
+        line-height: 2px;
+        margin-left: 5rem;
+        line-height: 5px;
+        text-align:start;
+        padding-top: 20px;
+    }
+
+    .title-heading-yummy {
+        width: 120px;
+        height: 50px;
+        margin-left: 10px;
+        rotate: 35deg; 
+    }
+
+    .carousel-item {
+        padding: 1rem 1rem 3rem 0;
+     }
+
+    .product {
+        margin: 3% 2% 1% 0%;
+    }
+
+    .product-image {
+        right: -49px;
+        rotate: 28deg;
+        margin-left: 25px;
+    }
+
+    .product-heading {
+        height: 30%; 
+        width: 10%;
+        border-radius: 1rem;
+    }
+
+    .subscribe-text {
+        margin-left: 65px;
+    }
+
+    .subscribe-input {
+        height: 50px;
+        width: 60px;
+        margin-left: 10%;
+    }
+
+    .subscribe-button {
+        max-width: 20%;
+        height: 50px;
+        width: 200px;
+        margin-left: 12%;
+        padding-right: 1px;
+    }
+}
+
+/*tablet media query */
+
+@media screen and (max-width: 960px) {
+    .title {
+        padding-top: 3%;
+    }
+
+    .title-heading-yummy {
+        right: 5rem;
+        width: 140px;
+        height: 70px;
+        margin: 4rem 0 0 100px;
+        padding-left: 5rem; 
+        rotate: 40deg; 
+    }
+
+    .title-image {
+        width: 30rem;
+        rotate: 25deg;
+        padding-left: 2rem;
+    }
+
+    .carousel-item {
+        padding: 0rem 0rem 2rem 1rem;
+    }
+
+    .product-image {
+        width: 150px;
+        right: -49px;
+        rotate: 25deg;
+    }
+
+    .product-heading {
+        height: 10%; 
+        width: 5%;
+        border-radius: 1rem;
+    }
+
+    .container-footer {
+        margin-left: 4rem;
+    }
+
+    .bottom-nav ul {
+        padding-right: 100px;
+    }
+
+    .subscribe-text {
+        padding-right: 50px;
+        margin-left: 60px;
+    }
+
+    .subscribe-input {
+        height: 50px;
+        width: 200px;
+        margin-left: 7%;
+    }
+
+    .subscribe-button {
+        max-width: 20%;
+        height: 50px;
+        width: 200px;
+        margin-left: 2%;
+    }
+}
+
+/*desktop media query */
+@media screen and (max-width: 1200px) {
+    .title {
+        padding-top: 5%;
+    }
+
+    .title-heading-yummy {
+        width: 160px;
+        height: 80px;
+        margin: 2rem 0 0 4rem;
+        padding-left: 6px; 
+        rotate: 40deg; 
+    }
+
+    .title-image {
+        width: 36rem;
+        rotate: 25deg;
+        padding-left: 5px;
+    }
+
+    .title-heading {
+        padding-top: 3%;
+    }
+
+    .carousel-item {
+        padding: 0rem 0rem 3rem 2rem;
+    }
+
+    .product-image {
+        width: 150px;
+        right: -49px;
+        rotate: 25deg;
+    }
+
+    .product-heading {
+        height: 10%; 
+        width: 5%;
+        border-radius: 1rem;
+    }
+
+    .subscribe-text {
+        padding-right: 30px;
+    }
+
+    .subscribe-input {
+        height: 50px;
+        width: 200px;
+        margin-left: 12%;
+    }
+
+    .subscribe-button {
+        max-width: 20%;
+        height: 50px;
+        width: 200px;
+        margin-left: 14%;
+    }
+}
+
+
+
