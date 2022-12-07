@@ -54,7 +54,7 @@ h1 {
 
 .title-heading {
     color: white;
-    padding-top: 15%;
+    padding-top: 20%;
     margin-left: 6rem;
     line-height: 15px;
     text-align:start;
@@ -74,14 +74,14 @@ h1 {
 
 /* Product */
 .carousel-item {
-   padding: 0rem 0rem 2rem 7rem;
+   padding: 0rem 0rem 2rem 4rem;
 }
 
 .product {
     color: white;
     margin: 3% 2% 1% 1%;
-    height: 200%; 
-    width: 100%;
+    height: 100%; 
+    width: 80%;
 }
 
 .product-heading {
@@ -116,52 +116,52 @@ h1 {
 }
 
 .oreo-cookies {
-    width: 175px;
+    width: 185px;
 }
 
 .choco-balls {
-    width: 170px;
+    width: 180px;
 }
 
 .pringles {
-    width: 170px;
+    width: 180px;
 }
 
 .dark-chocolate {
-    width: 180px;
+    width: 190px;
 }
 
 .cookies {
-    width: 160px;
-}
-
-.chocolate-balls {
     width: 170px;
 }
 
-.chocolate-basket {
-    width: 150px;
-}
-
-.money-ballon {
+.chocolate-balls {
     width: 180px;
 }
 
-.money-bouquet {
+.chocolate-basket {
     width: 160px;
+}
+
+.money-ballon {
+    width: 190px;
+}
+
+.money-bouquet {
+    width: 170px;
     rotate: 30deg;
 }
 
 .snickers {
-    width: 155px;
+    width: 165px;
 }
 
 .gourment-ruffles {
-    width: 140px;
+    width: 150px;
 }
 
 .sugar-free-choco {
-    width: 130px;
+    width: 140px;
 }
 
 .rating-star {
@@ -171,7 +171,7 @@ h1 {
 .shopping-cart {
     background-color: #fff;
     border-radius: 100%;
-    width: 15%;
+    width: 10%;
 }
 
 /* Footer */
