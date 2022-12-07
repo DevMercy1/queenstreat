@@ -74,14 +74,14 @@ h1 {
 
 /* Product */
 .carousel-item {
-   padding: 0rem 0rem 2rem 4rem;
+   padding: 0rem 0rem 2rem 7rem;
 }
 
 .product {
     color: white;
     margin: 3% 2% 1% 1%;
-    height: 100%; 
-    width: 80%;
+    height: 50%; 
+    width: 40%;
 }
 
 .product-heading {
