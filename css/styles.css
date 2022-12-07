@@ -287,7 +287,7 @@ h1 {
 } 
 
 /*desktop media query */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .navbar-nav {
         padding-top: 3%;
     }
@@ -351,7 +351,7 @@ h1 {
 }
 
 /*laptop media query */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .title-image {
         width: 29rem;
     }
@@ -453,7 +453,7 @@ h1 {
 }
 
 /*tablet media query */
-@media screen and (max-width: 768px)  {
+@media screen and (min-width: 768px)  {
     .title-image {
         width: 60rem;
     }
