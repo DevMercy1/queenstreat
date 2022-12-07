@@ -287,7 +287,7 @@ h1 {
 } 
 
 /*desktop media query */
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .navbar-nav {
         padding-top: 3%;
     }
@@ -307,7 +307,7 @@ h1 {
     }
 
     .title-heading { 
-        padding-top: 15%;
+        padding-top: 10%;
         margin-left: 1rem;
         white-space: nowrap;
     }
@@ -351,7 +351,7 @@ h1 {
 }
 
 /*laptop media query */
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
     .title-image {
         width: 29rem;
     }
@@ -453,7 +453,7 @@ h1 {
 }
 
 /*tablet media query */
-@media screen and (min-width: 768px)  {
+@media screen and (max-width: 768px)  {
     .title-image {
         width: 60rem;
     }
@@ -569,13 +569,33 @@ h1 {
         margin-right:7rem;
     }
 
+    .title-heading {
+        text-align: center;
+        margin-left: 14rem;
+        padding-top: 10%;
+        
+    }
+
+    h1, h3 {
+        font: 6rem;
+        line-height: 40px;
+    }
+
     .product {
-        width: 80%;
-        margin-left: 3rem;
+        width: 100%;
+        margin-left: 10rem;
+        padding-right: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .product-heading {
+        margin-left: 5rem;
+        font-size: 10px;
     }
 
     .product-image {
-        right: -10px;
+        right: 19px;
+        rotate: 15deg;
     }
 
     .product-heading {
@@ -584,97 +604,105 @@ h1 {
     }
 
     .sneaker-gift {
-        width: 185px;
+        width: 195px;
     }
     
     .chocolate-box {
-        width: 140px;
+        width: 150px;
     }
     
     .choco-gift {
-        width: 180px;
+        width: 190px;
     }
 
     .oreo-cookies {
-        width: 160px;
-    }
-    
-    .choco-balls {
         width: 170px;
     }
     
+    .choco-balls {
+        width: 180px;
+    }
+    
     .pringles {
-        width: 165px;
+        width: 175px;
     }
     
     .dark-chocolate {
-        width: 145px;
-    }
-    
-    .cookies {
-        width: 140px;
-    }
-    
-    .chocolate-balls {
         width: 155px;
     }
     
+    .cookies {
+        width: 150px;
+    }
+    
+    .chocolate-balls {
+        width: 165px;
+    }
+    
     .chocolate-basket {
-        width: 140px;
+        width: 150px;
     }
     
     .money-ballon {
-        width: 160px;
+        width: 170px;
     }
     
     .money-bouquet {
-        width: 130px;
+        width: 140px;
     }
     
     .snickers {
-        width: 130px;
+        width: 140px;
     }
     
     .gourment-ruffles {
-        width: 130px;
+        width: 140px;
     }
     
     .sugar-free-choco {
-        width: 125px;
+        width: 135px;
     }
 
     .container-footer {
         flex-direction: column;
         align-items: center;
+        padding: 10px 0 2rem 22rem;
     }
 
+    .bottom-nav ul li a {
+        font-size:x-large;
+        white-space: nowrap;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
     .subscribe {
         padding-top: 10px;
-        margin-bottom: 70px;
-    }
-
-    .subscribe-text {
-        margin-left: 1rem;
+        margin-bottom: 70px; 
     }
 
     .subscribe-input {
-        width: 260px;
-        left: 4%;
-        right: 15%;
+        width: 300px;
+        left: 42%;
     }
 
     .subscribe-button {
         width: 500px;
-        left: 40%;
+        left: 80%;
         font-size: 9px ;
     }
 
     .social-media-icon {
-        padding-right: 2rem;
+        margin-left: 20rem;
+        white-space: nowrap;
+    }
+
+    .footer-icon {
+        margin-left: 10rem;
     }
 
     .copyright-text {
-        padding-right: 3rem;
+        margin-left: 24rem;
+        white-space: nowrap;
     }
 }
 
