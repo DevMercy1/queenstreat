@@ -43,18 +43,19 @@ h1 {
 }
 
 .title {
-    padding-top: 7%;
+    padding-top: 3%;
     padding-right: 5rem;
 }
 
 .title-image {
-    width: 30rem;
+    width: 40rem;
     rotate: 28deg;
 }
 
 .title-heading {
     color: white;
-    padding-top: 20%;
+    padding-top: 9%;
+    white-space: nowrap;
     margin-left: 6rem;
     line-height: 15px;
     text-align:start;
@@ -66,7 +67,7 @@ h1 {
     background-color: indianred;
     color: white;
     font: 700 sans-serif;
-    margin: 6rem 0 0 1.5rem;
+    margin: 6rem 0 0 5.5rem;
     padding-left: 1.6rem; 
     rotate: 40deg; 
     border: 1px solid white;  
@@ -74,21 +75,31 @@ h1 {
 
 /* Product */
 .carousel-item {
-   padding: 0rem 0rem 2rem 7rem;
+    padding: 1rem 0 0 5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: orange;
 }
 
 .product {
     color: white;
-    margin: 3% 2% 1% 1%;
-    height: 50%; 
-    width: 40%;
+    padding: 4rem 0rem 2rem 5rem;
 }
 
 .product-heading {
+    height: 20%;
+    width: 18%;
     border-radius: 1rem;
     line-height: 5px; 
-    padding: 4px 0px 4px 10px;
-    margin: 30px 30px 60px 85px;
+    padding: 10px 0px 4px 15px;
+    margin: 60px 30px 120px 100px;
     float: left;
     position: relative;
 }
@@ -97,9 +108,8 @@ h1 {
     position: absolute;
     top: 0;
     bottom: 0px;
-    right: -60px;
-    rotate: 30deg;
-    margin-left: 25px;
+    right: -80px;
+    rotate: 40deg;
 }
 
 .sneaker-gift {
@@ -116,7 +126,7 @@ h1 {
 }
 
 .oreo-cookies {
-    width: 185px;
+    width: 170px;
 }
 
 .choco-balls {
@@ -124,15 +134,15 @@ h1 {
 }
 
 .pringles {
-    width: 180px;
+    width: 170px;
 }
 
 .dark-chocolate {
-    width: 190px;
+    width: 180px;
 }
 
 .cookies {
-    width: 170px;
+    width: 160px;
 }
 
 .chocolate-balls {
@@ -171,7 +181,8 @@ h1 {
 .shopping-cart {
     background-color: #fff;
     border-radius: 100%;
-    width: 10%;
+    width: 11%;
+    margin-bottom: 10px;
 }
 
 /* Footer */
@@ -302,7 +313,12 @@ h1 {
     }
 
     .carousel-item {
-        padding: 0rem 0rem 3rem 2rem;
+        margin-bottom: 10px;
+    }
+
+    .product {
+        padding-top: 4rem;
+        width: 130%;
     }
 
     .product-heading {
@@ -312,8 +328,8 @@ h1 {
     }
 
     .product-image {
-        rotate: 29deg;
-        padding-left: 25px;
+        right: -80px;
+        rotate: 30deg;
     }
 
     .product-heading h6, p {
@@ -337,22 +353,48 @@ h1 {
 /*laptop media query */
 @media screen and (max-width: 992px) {
     .title-image {
-        width: 30rem;
-    }  
+        width: 29rem;
+    }
 
-    .title-heading { 
-        margin-left: 4.9rem;
+    .title-heading-yummy {
+        margin-left: 110px; 
+    }
+
+    .title-heading {
+        margin-left: 4rem;
+        white-space: nowrap;
+    }
+
+    .product {
+        padding: 3rem 0rem 2rem 3rem;
     }
 
     .product-heading {
-        margin-left: 2.5rem;
-        width: 22%;
-        left: 30px;
+        white-space: nowrap;
+        height: 20%;
+        width: 40%;
+    }
+
+    .product-image {
+        right: -90px;
+        rotate: 15deg;
     }
 
 
+    .sneaker-gift {
+        width: 175px;
+    }
+    
+    .chocolate-box {
+        width: 130px;
+    }
+    
+    .choco-gift {
+        width: 170px;
+    }
+
     .oreo-cookies {
-        width: 165px;
+        width: 160px;
     }
 
     .choco-balls {
@@ -364,11 +406,11 @@ h1 {
     }
 
     .dark-chocolate {
-        width: 170px;
+        width: 160px;
     }
 
     .cookies {
-        width: 150px;
+        width: 140px;
     }
 
     .chocolate-balls {
@@ -396,7 +438,7 @@ h1 {
     }
 
     .sugar-free-choco {
-        width: 120px;
+        width: 100px;
     }
 
     .subscribe-text {
@@ -413,26 +455,31 @@ h1 {
 /*tablet media query */
 @media screen and (max-width: 768px)  {
     .title-image {
-        width: 40rem;
+        width: 60rem;
     }
 
     .title-heading-yummy {
         height: 75px;
-        margin-left: 140px;
+        margin-left: 180px;
     }
 
     .title-heading {
-        padding: 4% 0 3% 0;
+        padding: 4% 10% 3% 0;
+    }
+
+    .product {
+        width: 110%; 
+        margin-right: 5rem;
     }
 
     .product-heading {
         margin-left: 5rem;
-        width: 25%;
         font-size: 10px;
     }
 
     .product-image {
-        left: 4rem;
+        right: -50px;
+        rotate: 14deg;
     }
 
     .oreo-cookies {
@@ -519,27 +566,21 @@ h1 {
 /*mobile media query */
 @media screen and (max-width: 576px) {
     .title-heading-yummy {
-        height: 70px;
-        margin-left: 90px;
-        padding-bottom: 20px;
+        margin-right:7rem;
     }
 
     .product {
-        margin: 6% 2% 1% 0%;
-    }
-
-    .product-heading {
-        height: 50%; 
-        width: 43%;
-        border-radius: 1rem;
-    }
-
-    .product-heading h6, p {
-        font-size: 20px;
+        width: 80%;
+        margin-left: 3rem;
     }
 
     .product-image {
-        left: 4.5rem;
+        right: -10px;
+    }
+
+    .product-heading {
+        padding-right: rem;
+        margin-left: 10px;
     }
 
     .sneaker-gift {
