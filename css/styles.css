@@ -569,7 +569,10 @@ h1 {
     }
 
     .title-heading-yummy {
+        height: 50px;
         margin-right:7rem;
+        padding-left: 2px;
+        padding-top: 7px;
     }
 
     .title-heading {
@@ -587,7 +590,7 @@ h1 {
     }
 
     .product {
-        width: 100%;
+        width: 90%;
         padding-bottom: 1rem;
     }
 
@@ -698,7 +701,7 @@ h1 {
     }
 
     .social-media-icon {
-        margin-left: 4rem;
+        margin-left: 5rem;
         white-space: nowrap;
     }
 
@@ -707,7 +710,7 @@ h1 {
     }
 
     .copyright-text {
-        margin-left: 8rem;
+        margin-left: 9rem;
         white-space: nowrap;
     }
 }
