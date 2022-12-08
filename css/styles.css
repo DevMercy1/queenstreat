@@ -48,7 +48,7 @@ h1 {
 }
 
 .title-image {
-    width: 40rem;
+    width: 37rem;
     rotate: 28deg;
 }
 
@@ -455,7 +455,7 @@ h1 {
 /*tablet media query */
 @media screen and (max-width: 768px)  {
     .title-image {
-        width: 60rem;
+        width: 35rem;
     }
 
     .title-heading-yummy {
@@ -468,8 +468,7 @@ h1 {
     }
 
     .product {
-        width: 110%; 
-        margin-right: 5rem;
+        width: 150%; 
     }
 
     .product-heading {
@@ -565,102 +564,99 @@ h1 {
 
 /*mobile media query */
 @media screen and (max-width: 576px) {
+    .title-image {
+        width: 30rem;
+    }
+
     .title-heading-yummy {
         margin-right:7rem;
     }
 
     .title-heading {
         text-align: center;
-        margin-left: 14rem;
-        padding-top: 10%;
-        
-    }
-
-    h1, h3 {
-        font: 6rem;
-        line-height: 40px;
+        padding-top: 10%;   
     }
 
     .product {
-        width: 100%;
-        margin-left: 10rem;
-        padding-right: 3rem;
+        width: 70%;
+        margin-left: 4rem;
+        padding-right: 1rem;
+        margin-right: 2rem;
         padding-bottom: 1rem;
     }
 
     .product-heading {
-        margin-left: 5rem;
-        font-size: 10px;
+        padding: 10px 0px 4px 10px;
+        margin: 60px 0px 40px 0px;
+    }
+
+    .product-heading h6, p {
+        font-size: 14px;
     }
 
     .product-image {
-        right: 19px;
-        rotate: 15deg;
-    }
-
-    .product-heading {
-        padding-right: rem;
-        margin-left: 10px;
+        right: 1px;
+        rotate: 25deg;
     }
 
     .sneaker-gift {
-        width: 195px;
+        width: 130px;
     }
     
     .chocolate-box {
-        width: 150px;
+        width: 100px;
     }
     
     .choco-gift {
-        width: 190px;
+        width: 130px;
     }
 
     .oreo-cookies {
-        width: 170px;
+        width: 110px;
     }
     
     .choco-balls {
-        width: 180px;
+        width: 115px;
     }
     
     .pringles {
-        width: 175px;
+        width: 125px;
     }
     
     .dark-chocolate {
-        width: 155px;
+        width: 115px;
     }
     
     .cookies {
-        width: 150px;
+        width: 110px;
     }
     
     .chocolate-balls {
-        width: 165px;
+        width: 115px;
     }
     
     .chocolate-basket {
-        width: 150px;
+        width: 110px;
     }
     
     .money-ballon {
-        width: 170px;
+        width: 140px;
     }
     
     .money-bouquet {
-        width: 140px;
+        width: 110px;
     }
     
     .snickers {
-        width: 140px;
+        width: 100px;
     }
     
     .gourment-ruffles {
-        width: 140px;
+        width: 100px;
     }
     
     .sugar-free-choco {
-        width: 135px;
+        width: 100px;
     }
 
     .container-footer {
@@ -676,7 +672,7 @@ h1 {
         padding-bottom: 20px;
     }
     .subscribe {
-        padding-top: 10px;
+        padding-top: 5px;
         margin-bottom: 70px; 
     }
 
@@ -687,24 +683,25 @@ h1 {
 
     .subscribe-button {
         width: 500px;
-        left: 80%;
+        left: 90%;
         font-size: 9px ;
     }
 
     .social-media-icon {
-        margin-left: 20rem;
+        margin-left: 8rem;
         white-space: nowrap;
     }
 
     .footer-icon {
-        margin-left: 10rem;
+        margin-left: 8rem;
     }
 
     .copyright-text {
-        margin-left: 24rem;
+        margin-left: 10rem;
         white-space: nowrap;
     }
 }
+
 
 
 
