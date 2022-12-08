@@ -578,10 +578,7 @@ h1 {
     }
 
     .product {
-        width: 70%;
-        margin-left: 1rem;
-        padding-right: 1rem;
-        margin-right: 5rem;
+        width: 100%;
         padding-bottom: 1rem;
     }
 
@@ -676,28 +673,32 @@ h1 {
         margin-bottom: 70px; 
     }
 
+    .subscribe-text {
+        margin-left: 70px;
+    }
+
     .subscribe-input {
         width: 300px;
         left: 20%;
     }
 
     .subscribe-button {
-        width: 300px;
-        left: 70%;
+        width: 200px;
+        left: 85%;
         font-size: 9px ;
     }
 
     .social-media-icon {
-        margin-left: 7rem;
+        margin-left: 4rem;
         white-space: nowrap;
     }
 
     .footer-icon {
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
 
     .copyright-text {
-        margin-left: 10rem;
+        margin-left: 8rem;
         white-space: nowrap;
     }
 }
