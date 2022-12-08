@@ -579,9 +579,9 @@ h1 {
 
     .product {
         width: 70%;
-        margin-left: 4rem;
+        margin-left: 1rem;
         padding-right: 1rem;
-        margin-right: 2rem;
+        margin-right: 5rem;
         padding-bottom: 1rem;
     }
 
@@ -662,13 +662,13 @@ h1 {
     .container-footer {
         flex-direction: column;
         align-items: center;
-        padding: 10px 0 2rem 22rem;
+        padding: 10px 0 2rem 5rem;
     }
 
     .bottom-nav ul li a {
-        font-size:x-large;
+        font-size:large;
         white-space: nowrap;
-        line-height: 20px;
+        line-height: 15px;
         padding-bottom: 20px;
     }
     .subscribe {
@@ -678,22 +678,22 @@ h1 {
 
     .subscribe-input {
         width: 300px;
-        left: 42%;
+        left: 20%;
     }
 
     .subscribe-button {
-        width: 500px;
-        left: 90%;
+        width: 300px;
+        left: 70%;
         font-size: 9px ;
     }
 
     .social-media-icon {
-        margin-left: 8rem;
+        margin-left: 7rem;
         white-space: nowrap;
     }
 
     .footer-icon {
-        margin-left: 8rem;
+        margin-left: 5rem;
     }
 
     .copyright-text {
